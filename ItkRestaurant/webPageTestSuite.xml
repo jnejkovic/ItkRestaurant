@@ -3,10 +3,10 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test1">
 		<classes>
-		<class name="webPageTest.ReservationTest" />
-			<class name="webPageTest.MenuTest" />			
+			<class name="webPageTest.ReservationTest" />
+			<class name="webPageTest.MenuTest" />
 			<class name="webPageTest.QuestionaireTest" />
-			
+
 		</classes>
 	</test> <!-- WebPageTest -->
 </suite> <!-- Suite -->
