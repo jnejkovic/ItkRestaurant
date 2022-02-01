@@ -1,0 +1,32 @@
+#reserve page path
+Name=//input[@id='name']
+Phone=//input[@id='phone']
+Email=//input[@id='email']
+Person=//select[@id='persons']
+Date=//input[@id='date']
+Time=//input[@id='time']
+Parking=//label[contains(text(),'Switch')]
+Submit=//input[@id='submitForm']
+
+#menu
+AddButtons=.btn.btn-primary.btnPlus
+Prices=one-forth
+TotalPrice=//span[@id='ukupno']
+ListItems=//ul[@id='listaItema']
+
+#questionaire
+
+Reason=wdycform
+
+TryOptions=//form[@class='px-4']//input[@type='checkbox']
+LikeFoodButton=//button[contains(text(),'Did you Like the Food?')]
+Rating=hwofForm
+Feedback=//textarea[@id='hwofTA']
+SubmitModal=//body/section[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[3]/button[1]
+Slider=rng
+RateStaff=.btn.zt
+YourFeedback=frta
+SubmitQuestionaire=submitQuestionaire
+Iframe1=first
+Iframe2=second
+Iframe3=third
