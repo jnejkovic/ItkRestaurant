@@ -17,6 +17,9 @@ public class MenuTest {
 	public void menuTest() throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor) ReservationTest.driver;
 		Page.navigateToPage(ReservationTest.driver, MENU_URL);
+
+		Thread.sleep(5000);
+
 		int sum = 0;
 		js.executeScript("window.scrollBy(0,500)");
 
@@ -40,7 +43,6 @@ public class MenuTest {
 
 		Menu.selectProduc(ReservationTest.driver, 12);
 		sum += Menu.getPrice(ReservationTest.driver, 12);
-		WebDriverWait wait = new WebDriverWait(ReservationTest.driver, 30);
 		Thread.sleep(3000);
 
 		Assert.assertEquals(Menu.getTotalPrice(ReservationTest.driver), sum);

@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-01T09:23:56 CET" name="Suite" finished-at="2022-02-01T09:24:21 CET" duration-ms="24774">
+  <suite started-at="2022-03-30T09:14:01 CEST" name="Suite" finished-at="2022-03-30T09:14:43 CEST" duration-ms="41608">
     <groups>
     </groups>
-    <test started-at="2022-02-01T09:23:56 CET" name="Test1" finished-at="2022-02-01T09:24:21 CET" duration-ms="24774">
-      <class name="webPageTest.MenuTest">
-        <test-method signature="menuTest()[pri:0, instance:webPageTest.MenuTest@394a2528]" started-at="2022-02-01T09:23:57 CET" name="menuTest" finished-at="2022-02-01T09:24:17 CET" duration-ms="19646" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- menuTest -->
-      </class> <!-- webPageTest.MenuTest -->
+    <test started-at="2022-03-30T09:14:01 CEST" name="Test1" finished-at="2022-03-30T09:14:43 CEST" duration-ms="41608">
       <class name="webPageTest.QuestionaireTest">
-        <test-method signature="questionaireTest()[pri:0, instance:webPageTest.QuestionaireTest@6236eb5f]" started-at="2022-02-01T09:24:17 CET" name="questionaireTest" finished-at="2022-02-01T09:24:21 CET" duration-ms="3706" status="PASS">
+        <test-method signature="questionaireTest()[pri:0, instance:webPageTest.QuestionaireTest@68567e20]" started-at="2022-03-30T09:14:34 CEST" name="questionaireTest" finished-at="2022-03-30T09:14:43 CEST" duration-ms="8565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- questionaireTest -->
       </class> <!-- webPageTest.QuestionaireTest -->
+      <class name="webPageTest.MenuTest">
+        <test-method signature="menuTest()[pri:0, instance:webPageTest.MenuTest@17a7f733]" started-at="2022-03-30T09:14:06 CEST" name="menuTest" finished-at="2022-03-30T09:14:34 CEST" duration-ms="28335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuTest -->
+      </class> <!-- webPageTest.MenuTest -->
       <class name="webPageTest.ReservationTest">
-        <test-method is-config="true" signature="createDriver()[pri:0, instance:webPageTest.ReservationTest@11fc564b]" started-at="2022-02-01T09:23:54 CET" name="createDriver" finished-at="2022-02-01T09:23:56 CET" duration-ms="2136" status="PASS">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:webPageTest.ReservationTest@2118cddf]" started-at="2022-03-30T09:13:58 CEST" name="createDriver" finished-at="2022-03-30T09:14:01 CEST" duration-ms="2910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method signature="reserveTest()[pri:0, instance:webPageTest.ReservationTest@11fc564b]" started-at="2022-02-01T09:23:56 CET" name="reserveTest" finished-at="2022-02-01T09:23:57 CET" duration-ms="1382" status="PASS">
+        <test-method signature="reserveTest()[pri:0, instance:webPageTest.ReservationTest@2118cddf]" started-at="2022-03-30T09:14:01 CEST" name="reserveTest" finished-at="2022-03-30T09:14:06 CEST" duration-ms="4666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reserveTest -->
-        <test-method is-config="true" signature="TestQuit()[pri:0, instance:webPageTest.ReservationTest@11fc564b]" started-at="2022-02-01T09:24:21 CET" name="TestQuit" finished-at="2022-02-01T09:24:21 CET" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="TestQuit()[pri:0, instance:webPageTest.ReservationTest@2118cddf]" started-at="2022-03-30T09:14:43 CEST" name="TestQuit" finished-at="2022-03-30T09:14:43 CEST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestQuit -->

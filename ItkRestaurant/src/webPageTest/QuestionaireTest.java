@@ -17,11 +17,14 @@ public class QuestionaireTest {
 
 		JavascriptExecutor js = (JavascriptExecutor) ReservationTest.driver;
 		Page.navigateToPage(ReservationTest.driver, QUESTION_URL);
+		
+		Thread.sleep(5000);
+
 
 		Questionaire.selectReason(ReservationTest.driver, 2);
 		String expectedReason = Questionaire.getReason(ReservationTest.driver, 2);
 
-		js.executeScript("window.scrollBy(0,500)");
+		js.executeScript("window.scrollBy(0,700)");
 		ReservationTest.driver.switchTo().frame(Questionaire.iframe1(ReservationTest.driver));
 
 		Questionaire.selectTryOption(ReservationTest.driver, 1);
